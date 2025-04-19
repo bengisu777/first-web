@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    background-color: black;
+}
+
+.top-banner {
+    color: white;
+    width: fixed;
+    height: 49px;
+    padding-top: 0px;
+    padding-right: 160px;
+    padding-bottom: 18px;
+    padding-left: 160px;
+    gap: 10px;
+    background-color: #1a1a1a;
+    background-image: url('designs/top-banner-design.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-color: #262626;
+    border-bottom: 1px;
+}
+
+.top-banner p {
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+.top-banner a {
+    color: white;
+    text-decoration: underline;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+.navbar {
+    background-color: #1a1a1a;
+    width: fixed;
+    margin: 0 auto;
+    height: 77px;
+    display: flex;
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+    letter-spacing: 0%;
+    line-height: 150%;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-right: 162px;
+    padding-bottom: 20px;
+    padding-left: 162px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    justify-content: start;
+    display: flex;
+}
+
+.start-navbar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.middle-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.end-navbar {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
